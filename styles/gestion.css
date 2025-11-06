@@ -1,0 +1,48 @@
+.sidebar-custom {
+    background-color: rgba(105, 7, 2, 0.9);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(105, 7, 2, 0.02) 0, 
+        rgba(255, 255, 255, 0.02) 1px,
+        transparent 1px,
+        transparent 4px
+    );
+    background-blend-mode: overlay;
+}
+
+.accordion-item, .accordion-header {
+    background-color: transparent !important;
+    border: none !important;
+    color:white;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.accordion-button::after {
+    filter: brightness(0) invert(1) !important;
+}
+
+.sidebar-custom a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+.accordion-collapse {
+    background-color: transparent !important;
+}
+.accordion-body {
+    background-color: transparent !important;
+    color: white !important;
+}
+.accordion {
+    background-color: transparent !important;
+}
